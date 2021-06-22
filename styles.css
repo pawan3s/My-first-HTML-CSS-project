@@ -1,0 +1,67 @@
+body{
+    margin: 0px ;
+}
+
+.headline{
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side{
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.brand a{
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.brand a:hover{
+    color: black;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px salmon;
+}
+.nav-link-wrapper a:hover{
+    color: black;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+
+  .tesla-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
