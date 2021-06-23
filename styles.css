@@ -10,7 +10,7 @@ body{
     grid-template-columns: 1fr;
 }
 
-.nav-wrapper{
+.position{
     display: flex;
     justify-content: space-between;
     padding: 38px;
@@ -20,19 +20,19 @@ body{
     display: flex;
 }
 
-.nav-wrapper > .left-side > div {
+.position > .left-side > div {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
 }
 
-.nav-link-wrapper{
+.link{
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
 
-.nav-link-wrapper a{
+.link a{
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
@@ -47,10 +47,10 @@ body{
     color: black;
 }
 
-.nav-link-wrapper:hover{
+.link:hover{
     border-bottom: 1px salmon;
 }
-.nav-link-wrapper a:hover{
+.link a:hover{
     color: black;
 }
 
