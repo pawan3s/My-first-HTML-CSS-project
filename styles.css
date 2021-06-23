@@ -3,14 +3,15 @@ body{
 }
 
 .headline{
-    
+    color: pink;
+    text-align: center;
 }
 .container{
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.position{
+.nav-wrapper{
     display: flex;
     justify-content: space-between;
     padding: 38px;
@@ -20,19 +21,19 @@ body{
     display: flex;
 }
 
-.position > .left-side > div {
+.nav-wrapper > .left-side > div {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
 }
 
-.link{
+.nav-link-wrapper{
     height: 22px;
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
 
-.link a{
+.nav-link-wrapper a{
     color: #8a8a8a;
     text-decoration: none;
     transition: color 0.5s;
@@ -47,10 +48,10 @@ body{
     color: black;
 }
 
-.link:hover{
+.nav-link-wrapper:hover{
     border-bottom: 1px salmon;
 }
-.link a:hover{
+.nav-link-wrapper a:hover{
     color: black;
 }
 
@@ -65,3 +66,25 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .my-image img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 75%;
+    height: 75%;
+  }
+  .two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .profile-heading {
+    padding: 30px;
+  }
+
+  
+.profile-heading h1 {
+    color: lightseagreen;
+  }
+
+  
